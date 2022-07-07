@@ -20,6 +20,7 @@ function sumOfNumbers(arrayOfNumbers) {
   }
     return sum;
 }
+
 assignment.sumOfNumbers = sumOfNumbers;
 
 /**
@@ -38,6 +39,7 @@ function countEvenNumbers(arrayOfNumbers) {
   })
   return evenNumbers.length;
 }
+
 assignment.countEvenNumbers = countEvenNumbers;
 
 /**
