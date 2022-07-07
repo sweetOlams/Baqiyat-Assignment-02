@@ -32,16 +32,12 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  const evenNumber = [];
-  
-  arrayOfNumbers.forEach(value => {
-    if (value % 2 === 0) {
-      evenNumber.push(value);
-    }
-  })
-  return evenNumber.length;
-}
 
+  const evenNumbers = arrayOfNumbers.filter(value => {
+    return value % 2 === 0; 
+  })
+  return evenNumbers;
+}
 assignment.countEvenNumbers = countEvenNumbers;
 
 /**
