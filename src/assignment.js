@@ -35,7 +35,7 @@ function countEvenNumbers(arrayOfNumbers) {
   const evenNumber = [];
   
   arrayOfNumbers.forEach(value => {
-    if (value % 2 == 0) {
+    if (value % 2 === 0) {
       evenNumber.push(value);
     }
   })
